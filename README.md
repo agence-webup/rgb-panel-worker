@@ -50,4 +50,8 @@ You will need so specify your AMQP endpoint as an environment variable passed to
 AMQP_URL="AMQP://YOUR_AMQP_ENDPOINT" sudo worker.py
 ```
 
-In order to run in the background you might want to use [screen](https://linux.die.net/man/1/screen)
+In order to run in the background you might want to use [screen](https://linux.die.net/man/1/screen) or simply use:
+
+```bash
+AMQP_URL="AMQP://YOUR_AMQP_ENDPOINT" sudo worker.py &
+```
